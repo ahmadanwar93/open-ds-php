@@ -1,0 +1,23 @@
+{
+    "name": "fikri/open-dsa-tutorial",
+    "description": "Open data structures exercise in php",
+    "autoload": {
+        "psr-4": {
+            "Fikri\\OpenDsaTutorial\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fikri\\OpenDsaTutorial\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmadanwar93",
+            "email": "ahmadfikri.anwarfadzil@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^13.1"
+    }
+}
