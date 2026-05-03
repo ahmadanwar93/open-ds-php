@@ -21,6 +21,8 @@ class NaiveUSet implements USetInterface
     #[Override]
     public function find(mixed $x): mixed
     {
+        // the assumption is that, null is not stored as one of the element, else, returning that item (null) would be a false positive
+        // better way is to do an exception
         foreach ($this->arr as $item) {
             if ($item === $x) {
                 return $item;
